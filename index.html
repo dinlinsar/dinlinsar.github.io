@@ -423,14 +423,15 @@
     <script src="js/docs.min.js"></script>
 	<script src="js/smoothscroll.js"></script>
 	<script>
-	$( "#footerImg" ).hover(function(event) {
-		$( "#footerData" ).slideDown( "slow" );
+	$( "#footerImg" ).hover(function() {
+		$( "#footerData" ).slideDown( "slow" ,function(){$( "#footerImg" ).hide();});
+		
 	});
 	$( "#myCarousel" ).hover(function(event) {
-		$( "#footerData" ).slideUp( "slow" );
+		$( "#footerData" ).slideUp( "slow" ,function(){$( "#footerImg" ).show();} );
 	});
 	$( "section" ).hover(function(event) {
-		$( "#footerData" ).slideUp( "slow" );
+		$( "#footerData" ).slideUp( "slow" ,function(){$( "#footerImg" ).show();} );
 	});
 	
 	
