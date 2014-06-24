@@ -190,3 +190,7 @@ body {
 	background-color: #000;
 	color: #ffffff;
 }
+
+#footerData{
+	display:none;
+}

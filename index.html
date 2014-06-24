@@ -135,7 +135,7 @@
 					<div class="row">
 						<h4 class="lobster heading">Hi there! I'm
 						<span class="lobster">Dinesh Arokiyaraj</span></h4>
-						<img src="images/imageDinNew.jpg" alt="logo" id="myImg"/>
+						<img src="images/imageDinNew.jpg" style="width: 34em;height: 28em;" alt="logo" id="myImg"/>
 					</div>
 					<p class="bigfont">Welcome to my World!</p>
 					<p class="medfont">You can scroll down or use the navigation bar on top. You can find my social profile links in the footer.</p>
@@ -388,7 +388,9 @@
 
 
       <!-- FOOTER -->
+	  
 	  <footer>
+		
 		<div class="navbarf navbar-default navbar-fixed-bottom">
 			<div class="container">
 				<button class="navbar-toggle" data-toggle="collapse" data-target=".navFooterCollapse">
@@ -397,8 +399,9 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
+				<img src="images/footerup.png" id="footerImg" alt="First slide" style="margin-left: 39em;width:40px;height:40px;">
 				<div class="collapse navbar-collapse navFooterCollapse">
-					<ul class="nav navbar-nav footernav">
+					<ul id="footerData" class="nav navbar-nav footernav">
 						<li><button onclick="window.open('https://www.facebook.com/dinlinsar','_blank')" class="btn FB">Facebook</button></li>
 						<li><button onclick="window.open('./Dinesh Arokiyaraj - Resume.pdf','_blank')" class="btn btn-danger">Resume</button></li>
 						<li><button onclick="window.open('http://www.linkedin.com/in/dinlinsar','_blank')" class="btn btn-info LI">LinkedIn</button></li>
@@ -419,5 +422,18 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
 	<script src="js/smoothscroll.js"></script>
+	<script>
+	$( "#footerImg" ).hover(function(event) {
+		$( "#footerData" ).slideDown( "slow" );
+	});
+	$( "#myCarousel" ).hover(function(event) {
+		$( "#footerData" ).slideUp( "slow" );
+	});
+	$( "section" ).hover(function(event) {
+		$( "#footerData" ).slideUp( "slow" );
+	});
+	
+	
+	</script>
   </body>
 </html>
