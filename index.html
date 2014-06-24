@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/imageDinNew.jpg">
+
+    <title>Dinesh Arokiyaraj</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+	<!-- <link href="style.css" rel="stylesheet"> -->
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Dinesh Arokiyaraj</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <!-- <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li> -->
+				<li><a href="#home" class="bigfont smoothScroll">Home</a></li>
+				<li><a href="#about" class="bigfont smoothScroll">About</a></li>
+				<li><a href="#qualifications"  class="smoothScroll">Qualifications</a></li>
+				<li><a href="#skills"  class="smoothScroll">Skills</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/skyAbstract.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Look at the sky. We are not alone. The whole universe is friendly to us and conspires only to give the best to those who dream and work.</h1>
+              <p>A. P. J. Abdul Kalam</p>
+              <p style="opacity:0"><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/dream.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 style="color:#E09421">A dream doesn't become reality through magic, it takes sweat, determination and hard work.</h1>
+              <p style="color:#3D56BD">Colin Powell</p>
+              <p style="opacity:0"><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/creativity.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Creativity is contagious, pass it on.</h1>
+              <p>Albert Einstein</p>
+              <p style="opacity:0"><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+		<section id="home" class="scroll-panel">
+			<div class="jumbotron jumbotron-midnight text-centered">
+				<div>
+					<div class="row">
+						<h4 class="lobster heading">Hi there! I'm
+						<span class="lobster">Dinesh Arokiyaraj</span></h4>
+						<img src="images/imageDinNew.jpg" alt="logo" id="myImg"/>
+					</div>
+					<p class="bigfont">Welcome to my World!</p>
+					<p class="medfont">You can scroll down or use the navigation bar on top. You can find my social profile links in the footer.</p>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="scroll-panel">
+			<div class="jumbotron jumbotron-midnight text-centered">
+				<h1 class="lobster break" style="color: #2c3e50;">Who I Am!</h1>
+				<p class="medfont">Hello! I'm Dinesh Arokiyaraj, a Computer Science graduate at St.Joseph's college of Engineering , Chennai (Affliated to Anna University). I'm just another guy trying to make it big in this world. We all know there are millions of people who might fit this description and might make you think, what makes Dinesh so different? Well, the fact that I am me makes different than anyone else. Ha! I know, I'm corny &#9786.</p>
+				<p class="medfont">Enough of that. In a nutshell I would be what everyone calls a "Software Developer". I have a wide range of programming languages under my belt and I love to create software products where I can see my work bringing joy to people's lives. I know this is not a simple task to achieve but hey, Rome was not built in a day. I can also be called a gadget freak. I just love all these small nifty devices that people create. I hope to one day create or build a gadget that will change the way humans do a particular task.</p>
+				<p class="medfont">To talk about my hobbies, I am good at dancing. In fact, dance have been an integral part of my life. I have a passion for trekking and riding motorbikes. My most favorite hobby is playing any sort of outdoor games. Since i used to play all of them, mainly to keep track on my fitness level.</p>
+			</div>
+		</section>
+		<section id="qualifications" class="scroll-panel">
+			<div class="jumbotron jumbotron-midnight text-centered">
+				<h1 class="lobster break" style="color: #2c3e50;">What I Know!</h1>
+				<p class="medfont">I'm going to get all professional now. So if you're interested in my profile, please read through. If you're just browsing then skip ahead &#9786.</p>
+				<p class="medfont">To give a brief background about my educational and professional career, the first thing you would want to know is that I've had access to computers from a very young age and have always been intrigued by their workings. This naturally made me take up computer science as my field of study and my bread earner.</p>
+				<h3 class="lobster break">Education</h3>
+				<h5 class="lobster break">Anna University</h5>
+				<p class="medfont">I did my undergrad in Computer Science at Anna University and graduated in 2011. During my 4 years of study I learnt all the computer science fundamentals and a lot of advanced topics as well. I was fortunate enough to get amazing exposure thanks to all the symposiums I have attended and won. I was the President of the Mathematics Club and it was truly a delightful exeprience working with my batchmates.</p>
+				<h3 class="lobster break">Work Experiences</h3>
+				<h5 class="lobster break">Cognizant Technology Solutions</h5>
+				<p class="medfont">I got placed in Cognizant by the time I graduated from Anna University. I started my job there in June 2011 and as part of my assignments, have been in Requirement Analysis, Development, Application Maintenance, Functional Studies, Quality Reviews and Testing. Expertise in working in MVC Frameworks, especially Backbone JS for smooth UI interface and functionalities with enhanced knowledge in HTML5, CSS3, JavaScript and JQuery. Worked in several projects and have received good comments from my leads in each one of them. My primary role is to develop the UI from the scratch through several JS frameworks.</p>
+				<h6 class="break">Please read my Resume for further information.</h6>
+			</div>
+		</section>
+		<section id="skills" class="scroll-panel">
+			<div class="jumbotron jumbotron-midnight text-centered">
+				<h1 class="lobster" style="color: #2c3e50;">My Toolkit!</h1>
+                <div class="container break blackfont">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="well well-lg">
+								<h4 class="lobster">Front-End</h4>
+								HTML / HTML5
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+								</div>
+								CSS / CSS3
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+								</div>
+								JavaScript
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+								</div>
+								JQuery
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+								</div>
+								Bootstrap
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+								</div>
+								Backbone.js
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+								</div>
+								Underscore.js
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+								</div>
+								Angular.js
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+								</div>
+								Responsive Design
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+								</div>
+								Cross Browser Polyfills
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+								</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="well well-lg">
+								<h4 class="lobster">Back-End</h4>
+								MySQL
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+								</div>
+								Mongo
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+								</div>
+								SVN
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+								</div>
+								Perl
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
+								</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="well well-lg">
+								<h4 class="lobster">Programming Languages</h4>
+								C
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+								</div>
+								C++
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+								</div>
+								Java
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="well well-lg">
+								<h4 class="lobster">Software Packages</h4>
+								Adobe Dreamviewer
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+								</div>
+								Adobe Photoshop
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+								</div>
+								Microsoft Excel
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+								</div>
+								Microsoft Word
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+								</div>
+								Microsoft Powerpoint
+								<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+								</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="well well-lg">
+								<h4 class="lobster">Operating Systems</h4>
+								Windows 9x, XP, 7, 8
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+								</div>
+								Linux
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+								</div>
+								Macintosh
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+								</div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-4">
+                            <div class="well well-lg">
+								<h4 class="lobster">Computer Science Concepts</h4>
+								Data Mining
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+								</div>
+								Network Programming
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+								</div>
+								Mainframes
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+								</div>
+								DBMS
+								<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+								</div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+			</div>
+		</section>
+      <!-- Three columns of text below the carousel -->
+      <!-- <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Heading</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div> -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <!-- <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+ -->
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+	  <footer>
+		<div class="navbarf navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navFooterCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse navFooterCollapse">
+					<ul class="nav navbar-nav footernav">
+						<li><button onclick="window.open('https://www.facebook.com/dinlinsar','_blank')" class="btn FB">Facebook</button></li>
+						<li><button onclick="window.open('./Dinesh Arokiyaraj - Resume.pdf','_blank')" class="btn btn-danger">Resume</button></li>
+						<li><button onclick="window.open('http://www.linkedin.com/in/dinlinsar','_blank')" class="btn btn-info LI">LinkedIn</button></li>
+						<li><button onclick="window.open('https://github.com/dinlinsar','_blank')" class="btn GH">GitHub</button></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+	<script src="js/smoothscroll.js"></script>
+  </body>
+</html>
