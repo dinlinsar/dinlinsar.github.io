@@ -150,7 +150,7 @@ body {
 }
 
 .navbarf{
-	background: #ffffff;	
+	background: rgba(255,255,255,0);	
 	color: #3498db;
 }
 
@@ -193,4 +193,5 @@ body {
 
 #footerData{
 	display:none;
+	background: #fff;
 }
